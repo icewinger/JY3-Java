@@ -1,0 +1,19 @@
+import java.util.*;
+public class Homework02 
+{
+	public static void main(String[] args) 
+	{
+		for (int i=100;i<10000 ;i++ )
+		{
+			
+			int a = i.charAt(0)-48;
+			int b = i.charAt(1)-48;
+			int c = i.charAt(2)-48;
+			int d =(int) (Math.pow(a,3)+Math.pow(b,3)+Math.pow(c,3));
+			if (i==d)
+			{
+				System.out.println(i);
+			}
+		}
+	}
+}
